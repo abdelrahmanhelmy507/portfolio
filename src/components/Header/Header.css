@@ -1,0 +1,111 @@
+/* =======================
+    table of content 
+    ======================
+
+    1. Header design 
+    2. Button icon
+    3. Responsive design 
+
+
+*/
+
+
+/* =======================
+    1. Header design 
+    ======================
+
+ */
+.header{
+    color: var(--title);
+    justify-content: space-between;
+    /* margin: 1rem 3rem; */
+    margin-bottom: 1.5rem;
+}
+.header nav ul.flex{
+    background-color: var(--border);
+    padding: 1rem;
+    border-radius: 25px;
+    border: 1px solid var(--border2);
+}
+.header nav ul li a{
+    font-size: 1rem;
+    margin: 0 1rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    color: var(--subtitle);
+}
+.header  ul li a:hover {
+    color: var(--blue);
+    font-weight: 500;
+}
+
+
+
+/* menu */
+.header .menu{
+    display: none;
+}
+.header .fixed{
+    position: fixed;
+    inset : 0;
+    z-index: 15;
+    background-color: rgba(40, 40, 48, 0.91);
+}
+
+
+@keyframes menu {
+    0% {scale: 0;}
+    65%{scale: 1.2;}
+    100%{scale: 1;}    
+}
+.header .fixed ul {
+    animation: menu .77s 1;
+    background-color: var(--secondry);
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 1.5rem;
+}
+.header .fixed ul li{
+padding:1rem 2rem;
+margin-right: 1rem;
+margin-left: 1rem;
+border-bottom: 1px solid var(--border);
+}
+
+.header .fixed ul li:first-child{
+    text-align: right;
+    border: none;
+    padding-bottom: 0;
+}
+/* =======================
+    table of content 
+    ====================== */
+.icon-menu ,.icon-moon-o{
+    background-color: var(--border);
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid rgba(244, 165, 96, 0.249);
+    color: var(--subtitle);
+    transition: .2s;
+}
+.icon-menu:hover ,.icon-moon-o:hover{
+    border: 1px solid rgba(249, 158, 78, 0.427);
+    color: var(--title);
+}
+
+/* =======================
+    3. Responsive design 
+    ======================
+
+ */
+@media (max-width: 848px){
+    .header nav ul.flex{
+        display: none; 
+}
+    .header .menu{
+    display: block;
+}
+}

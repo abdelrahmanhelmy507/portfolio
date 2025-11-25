@@ -1,0 +1,135 @@
+
+/* =======================
+    table of content 
+    ======================
+
+    1. Head
+    2. left side => form
+    3. right side => animation
+    4. Responsive design 
+
+*/
+
+
+/* =======================
+    1. Head
+    ======================
+
+ */
+.contact-us .head {
+    margin-bottom: 1rem;
+}
+.head .icon-envelope{
+    color: var(--subtitle);
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+.head .title{
+    color: var(--title);
+    font-size: 1.5rem;
+}
+.head p{
+    margin-top: 1rem;
+    color: var(--subtitle);
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.contact-us .parent{
+    justify-content: space-between;
+    
+}
+
+/* =======================
+    2. left side 
+    ======================
+
+ */
+
+.left-side form .email ,
+.left-side form .message{
+    margin-bottom: 1rem;
+}
+
+.left-side form label{
+    margin-right: 1rem;
+    color: var(--subtitle);
+    font-size: 1.1rem;
+}
+.left-side form #email ,
+.left-side form #message {
+    all: unset;
+    background-color: var(--bgHeade);
+    color: var(--title);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    width: 16rem;
+    padding: .5rem .6rem;
+    font-size: 1.1rem;
+    transition: .3s;
+}
+.left-side form #message{
+    min-height: 11rem;
+    resize: vertical;
+}
+.left-side form #email:focus ,
+.left-side form #message:focus{
+    border: 1px solid var(--blue);
+    scale: 1.01;
+}
+.left-side form #email:hover ,
+.left-side form #message:hover{
+    border: 1px solid var(--blue);
+    scale: 1.01;
+}
+.left-side form button{
+    margin-bottom: 1rem;
+    color: var(--title);
+    background-color: var(--border);
+    padding:.6rem 0;
+    width: 140px;
+    text-align: center;
+    border-radius: 5px;
+    transition: .3s;
+    margin-top: 1rem;
+}
+.left-side form button:hover{
+    scale: .9;
+}
+ .submit-message{
+    color: var(--title);
+    font-size: 25px;
+}
+/* =======================
+    3. Right side
+    ======================
+
+ */
+
+
+ .right-side .emialanimation{
+    width: 425px;
+ }
+ .succeede-animation{
+    width: 40px;
+ }
+
+
+
+
+ /* =======================
+    4. responsive design
+    ======================
+
+ */
+ @media (max-width : 748px){
+    .left-side form .message{
+        flex-direction: column;
+        align-items: start;
+    }
+    .left-side form button{
+        display: block;
+        margin: auto;
+    }
+ }
+

@@ -1,0 +1,76 @@
+
+/* =======================
+    table of content 
+    ======================
+
+    1. left-side
+    2. right-side
+    3. Responsive design 
+
+*/
+
+.hero-section{
+    align-items: center;
+    justify-content: space-between;
+}
+/* =======================
+    1. left-side
+    ======================
+
+ */
+
+.avatar{
+    align-items: end;
+    gap: .1rem;
+}
+.personal-image img{
+    width: 100px;
+}
+.icon-verified{
+    color: var(--blue);    
+}
+.left-side h1{
+    color: var(--title);
+    font-size: 3rem;
+    line-height: 4.77rem;
+    margin: 1.5rem 0;
+}
+.left-side p{
+    color: var(--subtitle);
+    margin-bottom: 2rem;
+    line-height: 1.65rem;
+}
+.hero-section .icons{
+    gap: 1rem;
+    color: var(--subtitle);
+    font-size: 1.5rem;
+    cursor: pointer;
+    scale: 1;
+}
+.hero-section .icon:hover{
+    transition: .3s;
+    color: var(--icon-hover);
+    scale: 1.2;
+}
+/* =======================
+    2. Right-side
+    ======================
+
+ */
+
+.right-side .dev{
+    width: 400px;
+}
+
+ @media (max-width: 650px) {
+    .left-side h1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+ }
+  @media (max-width: 500px) {
+    .left-side h1{
+        font-size: 1rem;
+        line-height: 2.5rem;
+    }
+ }
