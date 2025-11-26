@@ -63,6 +63,9 @@
 }
 
  @media (max-width: 650px) {
+    .right-side .dev{
+    display: none;
+}
     .left-side h1{
         font-size: 2rem;
         line-height: 2.5rem;
@@ -70,7 +73,7 @@
  }
   @media (max-width: 500px) {
     .left-side h1{
-        font-size: 1rem;
+        font-size: 1.3rem;
         line-height: 2.5rem;
     }
  }

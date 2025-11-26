@@ -7,7 +7,7 @@ export default function ProfileCardSectoin() {
     visible: { opacity: 1, x: 0, transition: { duration: 0.6 } },
   };
   return (
-    <div className="main-profile-card">
+    <div id="about" className="main-profile-card">
     <ProfileCard
       name="AbdElrahman Helmy"
       title="Software Engineer"
@@ -19,7 +19,7 @@ export default function ProfileCardSectoin() {
       enableTilt={true}
       enableMobileTilt={false}
       behindGlowEnabled={false}
-      onContactClick={() => console.log("Contact clicked")}
+      onContactClick={() => window.open("https://wa.me/201016281208", "_blank")}
     />
      <motion.div
   className="profile-info"

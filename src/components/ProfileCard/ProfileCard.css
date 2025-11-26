@@ -405,31 +405,40 @@
   gap: 2rem;              /* gap-8 (1rem × 2 = 2rem تقريبًا حسب Tailwind) */
 }
 .profile-info {
-  color: white;           /* text-white */
+  color: var(--title)           /* text-white */
   /* max-width: 24rem;       max-w-sm ≈ 24rem */
 }
 
 /* العنوان */
 .profile-info h2 {
-  font-size: 3rem;      /* text-2xl */
+  font-size: 2.5rem;      /* text-2xl */
   font-weight: 700;       /* font-bold */
   margin-bottom: 0.5rem;  /* mb-2 */
 }
 
 /* الفقرات */
 .profile-info p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   margin-bottom: 0.88rem;  /* mb-2 */
-  line-height: 2;       /* optional ل readability */
+  line-height: 1.5;       /* optional ل readability */
 }
 
-/* للـ screen الكبير (md breakpoint ~768px) */
 @media (min-width: 900px) {
   .main-profile-card {
-    flex-direction: row;  /* flex-row */
+    flex-direction: row;  
   }
 }
 
+@media (max-width: 800px) {
+  .profile-info h2 {
+  font-size: 1.5rem;     
+}
+
+.profile-info p {
+    font-size: 1rem;
+     
+}
+}
 @keyframes glow-bg {
   0% {
     --bgrotate: 0deg;

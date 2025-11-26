@@ -123,6 +123,9 @@
 
  */
  @media (max-width : 748px){
+    .right-side .emialanimation{
+   display: none;
+ }
     .left-side form .message{
         flex-direction: column;
         align-items: start;

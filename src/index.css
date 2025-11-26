@@ -109,3 +109,8 @@ button{
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+@media (max-width:678px) {
+    .container{
+    width: 100%;
+} 
+}

@@ -22,7 +22,7 @@ export default function Contact() {
     );
   }
   return (
-    <div className="contact-us">
+    <div id="Contact" className="contact-us">
       <div className="head">
         <span className="icon-envelope"></span>
         <span className="title">Contact us</span>

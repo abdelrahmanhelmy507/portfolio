@@ -1,4 +1,3 @@
-
 /* =======================
     table of content 
     ======================
@@ -9,44 +8,43 @@
 
 */
 
-
 /* =======================
     1.  1. left side 
     ======================
 
  */
 
-
-
-.projects{
-    gap: 1.2rem;
-    align-items: start;
+.projects {
+  gap: 1.2rem;
+  align-items: start;
+  min-height: 100px;
+  margin-bottom: 100px;
 }
-.projects .left-side{
-    flex-direction: column;
+.projects .left-side {
+  flex-direction: column;
 }
-.projects .left-side button{
-    margin-bottom: 1rem;
-    background-color: var(--border);
-    padding:.8rem 0;
-    width: 180px;
-    text-align: center;
-    opacity: .5;
-    border-radius: 5px;
-    transition: .3s;
-    color: var(--title);
+.projects .left-side button {
+  margin-bottom: 1rem;
+  background-color: var(--border);
+  padding: 0.8rem 0;
+  width: 180px;
+  text-align: center;
+  opacity: 0.5;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: var(--title);
 }
-.projects .left-side button:hover{
-    opacity: 1;
-    scale: 1.01;
-    background-color: var(--icon-hover);
-    color: var(--bgHeader);
+.projects .left-side button:hover {
+  opacity: 1;
+  scale: 1.01;
+  background-color: var(--icon-hover);
+  color: var(--bgHeader);
 }
-.projects .left-side button.active{
-    border: 1px solid var(--blue);
-    opacity: 1;
-    scale: 1.01;
-    letter-spacing: .6px;
+.projects .left-side button.active {
+  border: 1px solid var(--blue);
+  opacity: 1;
+  scale: 1.01;
+  letter-spacing: 0.6px;
 }
 
 /* =======================
@@ -55,59 +53,57 @@
 
  */
 
-.projects .right-side{
-    gap: .7rem;
-    flex-wrap: wrap;
-    
+.projects .right-side {
+  gap: 0.7rem;
+  flex-wrap: wrap;
 }
-.projects .right-side .card{
-    /* width: 262px; */
-    border: 1px solid rgba(107, 123, 138, 0.418);
-    border-radius: 7px;
-    transition: .3s;
+.projects .right-side .card {
+  /* width: 262px; */
+  border: 1px solid rgba(107, 123, 138, 0.418);
+  border-radius: 7px;
+  transition: 0.3s;
 }
-.projects .right-side .card:hover{
-    /* width: 262px; */
-    border: 1px solid var(--blue);
-    rotate: 1deg;
-    scale: 1.01;
-    cursor: pointer;
-    border-radius: 7px;
+.projects .right-side .card:hover {
+  /* width: 262px; */
+  border: 1px solid var(--blue);
+  rotate: 1deg;
+  scale: 1.01;
+  cursor: pointer;
+  border-radius: 7px;
 }
-.projects .right-side .card img{
-    width: 260px;
-    border-radius: 7px;
-    height: 150px;
+.projects .right-side .card img {
+  width: 260px;
+  border-radius: 7px;
+  height: 150px;
 }
-.projects .right-side .card .box{
-    padding: 0.5rem 1rem;
-    width: 260px;
+.projects .right-side .card .box {
+  padding: 0.5rem 1rem;
+  width: 260px;
 }
-.projects .right-side .card .box h4.title{
-    color: var(--title);
-    margin: 0.77rem 0;
-    font-size: 20px;
+.projects .right-side .card .box h4.title {
+  color: var(--title);
+  margin: 0.77rem 0;
+  font-size: 20px;
 }
-.projects .right-side .card .box p{
-    color: var(--subtitle);
-    line-height: 1.3rem;
-    margin-bottom: 1rem;
+.projects .right-side .card .box p {
+  color: var(--subtitle);
+  line-height: 1.3rem;
+  margin-bottom: 1rem;
 }
-.projects .right-side .card .links{
-    justify-content: space-between;
-    margin-bottom: 1rem;
+.projects .right-side .card .links {
+  justify-content: space-between;
+  margin-bottom: 1rem;
 }
-.projects .right-side .card .icons{
-    gap: .5rem;
+.projects .right-side .card .icons {
+  gap: 0.5rem;
 }
-.projects .icon{
-    color: var(--subtitle);
-    font-size: 1.3rem;
+.projects .icon {
+  color: var(--subtitle);
+  font-size: 1.3rem;
 }
-.projects .link a{
-    color: var(--blue);
+.projects .link a {
+  color: var(--blue);
 }
-
 
 /* =======================
     3. responsive design
@@ -115,32 +111,39 @@
 
  */
 
- @media (max-width: 1058px) {
-    .projects{
-        flex-direction: column;
-        align-items: center;
-    }
-    .projects .right-side{
-        justify-content: center;
-    }.projects .left-side{
-        flex-direction: row;
-        gap: .5rem;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
- }
- @media (max-width : 600px){
-    .projects .left-side button{
-        margin-bottom: 1rem;
+@media (max-width: 1058px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects .right-side {
+    justify-content: center;
+  }
+  .projects .left-side {
+    flex-direction: row;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .projects .left-side button {
+    margin-bottom: 1rem;
     background-color: var(--border);
-    padding:.8rem 0;
+    padding: 0.8rem 0;
     width: 150px;
-    font-size: .8rem;
-    }
- }
-  @media (max-width : 500px){
-    .projects .left-side button{
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 500px) {
+  .projects .left-side button {
     width: 100px;
-    font-size: .7rem;
-    }
- }
+    font-size: 0.7rem;
+  }
+}
+@media (min-width: 1200px) {
+  .projects .left-side {
+    position: sticky;
+    top: 30px;
+  }
+}

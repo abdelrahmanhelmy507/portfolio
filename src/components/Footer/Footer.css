@@ -16,3 +16,10 @@
     font-size: 0.6rem;
     color: var(--subtitle);
 }
+.footer .icons div{
+    margin: 0 8px;
+    font-size: 20px;
+}
+.footer .icons .icon:hover{
+    font-size: 23px;
+}

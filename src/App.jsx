@@ -6,6 +6,8 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
 import ProfileCardSectoin from './components/ProfileCard/ProfileCardSection'
+import Skills from './components/Skills/Skills'
+import Statistics from './components/Contact/Statistics/Statistics'
 // import ProfileCard from './components/ProfileCaed/ProfileCard'
 
 
@@ -29,7 +31,11 @@ function App() {
         <div className='devider'></div>
         <ProfileCardSectoin />
         <div className='devider'></div>
+        <Skills />
+        <div className='devider'></div>
         < Main />
+        <div className='devider'></div>
+        <Statistics />
         <div className='devider'></div>
         < Contact />
         <div className='devider'></div>

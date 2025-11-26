@@ -1,0 +1,54 @@
+.statistics-section {
+  padding: 4rem 0;
+  /* background-color: #f8f8ff; */
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  color:var(--title);
+  font-weight: 700;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.stat-card {
+  /* background: white; */
+  padding: 2rem 1.5rem;
+  border-radius: 1.3rem;
+  width: 100%;
+  max-width: 220px;
+  box-shadow: 1px 2px 15px black ;
+  transition: 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 12px var(--blue);
+}
+
+.stat-icon {
+  font-size: 2.8rem;
+  color: var(--blue);
+  /* width: fit-content; */
+  padding-bottom: 5px;
+  margin: auto;
+}
+
+.stat-value {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--subtitle);
+  margin-bottom: 0.4rem;
+}
+
+.stat-label {
+  font-size: 1rem;
+  color:var(--subtitle);
+}
