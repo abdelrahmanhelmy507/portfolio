@@ -14,7 +14,7 @@ export default function ProfileCardSectoin() {
       handle="AbdElrahmanHelmy"
       status="Online"
       contactText="Contact Me"
-      avatarUrl="/me3.jpeg"
+      avatarUrl="./me3.jpeg"
       showUserInfo={true}
       enableTilt={true}
       enableMobileTilt={false}

@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="left-side ">
         <div className="avatar flex">
           <div className="personal-image">
-            <img src="/me.png" alt="" />
+            <img src="./me.png" alt="" />
           </div>
           <div className="verfied icon-verified"></div>
         </div>

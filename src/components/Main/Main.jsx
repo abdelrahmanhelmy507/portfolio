@@ -7,7 +7,7 @@ const myProjects = [
     cateegory: ["html", "css"],
     description:
       "A simple static Gym landing page built using HTML & CSS only. The design focuses on clean layout and basic sections without responsiveness.",
-    imgurl: "/portfolio1.png",
+    imgurl: "./portfolio1.png",
     demo: "https://abdelrahmanhelmy507.github.io/portfolio1/",
     repo: "https://github.com/abdelrahmanhelmy507/portfolio1",
   },
@@ -17,7 +17,7 @@ const myProjects = [
     cateegory: ["html", "css"],
     description:
       "A coffee shop promotional template made with HTML & CSS. It includes hero section, products preview, and clean typography.",
-    imgurl: "/portfolio2.png",
+    imgurl: "./portfolio2.png",
     demo: "https://abdelrahmanhelmy507.github.io/portfolio2/",
     repo: "https://github.com/abdelrahmanhelmy507/portfolio2",
   },
@@ -27,7 +27,7 @@ const myProjects = [
     cateegory: ["html", "css"],
     description:
       "A modern personal portfolio template inspired by Leon Agency theme. Pure HTML & CSS with smooth sections structure.",
-    imgurl: "/portfolio3.png",
+    imgurl: "./portfolio3.png",
     demo: "https://abdelrahmanhelmy507.github.io/portfolio3/",
     repo: "https://github.com/abdelrahmanhelmy507/portfolio3",
   },
@@ -37,7 +37,7 @@ const myProjects = [
     cateegory: ["html", "css"],
     description:
       "A clean creative agency template based on the Kasper theme design. Built using semantic HTML & organized CSS.",
-    imgurl: "/portfolio4.png",
+    imgurl: "./portfolio4.png",
     demo: "https://abdelrahmanhelmy507.github.io/portfolio4/",
     repo: "https://github.com/abdelrahmanhelmy507/portfolio4",
   },
